@@ -10,40 +10,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import asyncio
 
-'''
-class ChromeSearch(unittest.TestCase):
-
-
-    def setUp(self):
-        #self.driver = webdriver.Chrome('./chromedriver')
-
-        opt = webdriver.ChromeOptions()
-        opt.add_experimental_option('w3c', True)
-        #opt.w3c = True        
-        self.driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver',options=opt)
-
-    def test_search_in_python_org(self):
-        driver = self.driver
-        driver.get("https://www.python.org")
-        self.assertIn("Python", driver.title)
-
-        elem = driver.find_element(By.NAME,"q")
-        
-        elem.send_keys("getting started with python")
-
-        elem.send_keys(Keys.RETURN)
-        
-        assert "https://www.python.org/search/?q=getting+started+with+python&submit=" == driver.current_url
-
-    def tearDown(self):
-        self.driver.close()
-
-
-    if __name__ == "__main__":
-        unittest.main()
-'''
-
-
 
 class AgtNifCheck():
 
