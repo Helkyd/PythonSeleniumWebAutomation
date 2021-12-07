@@ -64,8 +64,10 @@ class AgtNifCheck():
         janela1 = driver.window_handles[0]
         driver.switch_to.window(janela1)
 
+        
 
         driver.find_elements(By.CLASS_NAME,'colletion-item__title ng-binding')
+        #driver.find_elements(By.CLASS_NAME,'imprimirDli')
         #driver.find_elements(By.CLASS_NAME,'collection-item')
         #driver.implicitly_wait(30)
 
